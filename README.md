@@ -3,3 +3,5 @@
 I currently build custom Discord bots, primarily using **TypeScript**, and I'm actively looking to expand into larger-scale projects. When I'm not coding, I manage community operations and moderation for Strinova and VTuber Academy. Currently pursuing my BSc in Information Technology @ Curtin University~ 🌸
 
 ---
+
+###### Profile Picture: Aemeath from Wuthering Waves
