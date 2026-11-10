@@ -46,20 +46,6 @@ Every project I start, personal or client, follows this one method from idea to 
 | **`/init`** | A Claude Code command that scans the codebase and generates a `CLAUDE.md` context file. |
 | **`AGENTS.md`** | An open-standard context file that many AI coding tools read automatically. |
 
-## What makes this method different
-
-Each part merges an established practice with a newer one to cover the weakness of each.
-
-| Established concept | Newer concept | Merged into this method |
-| --- | --- | --- |
-| SDLC phase gates (Waterfall) | Agile milestones | Gates only on scope and release; building happens in short, repeatable cycles |
-| Software Requirements Specification (SRS) | Spec-driven development for AI agents | The mini-SRS is a living spec that AI implements and is checked against, not a document filed away |
-| EARS requirement syntax (2009; see [Key terms](#key-terms)) | AI-generated tests and implementation | Every requirement is written as `WHEN … THE SYSTEM SHALL …`, so an AI can turn it directly into a test |
-| Requirements review | AI "clarify" pass | Before scope freezes, an AI lists gaps, ambiguities and conflicts in the spec |
-| Shape Up appetite and cool-down | Solo, AI-accelerated building | Milestones are time-boxed; a short cool-down follows each release |
-| Architecture Decision Records (ADRs) | AI agent context files | Decisions are recorded as short files that agents must treat as binding |
-| `README.md` conventions | `CLAUDE.md` via `/init`, and the `AGENTS.md` standard | One context file generated from the codebase, readable by any AI tool |
-
 ## Tracks
 
 Both tracks run all 7 phases in the same order; the track only changes which deliverables each phase produces (listed under each phase below). Pick the track at Intake.
@@ -350,11 +336,3 @@ Date: YYYY-MM-DD
 ## Consequences
 <what changes, good and bad>
 ```
-
-## Sources
-
-- [GitHub Spec Kit](https://github.com/github/spec-kit) - spec-driven development: constitution, specify, clarify, plan, tasks, implement
-- [Kiro specs](https://kiro.dev/docs/specs/concepts) - requirements.md with EARS acceptance criteria, design.md, tasks.md
-- [Shape Up, chapter 3: Set boundaries](https://basecamp.com/shapeup/1.2-chapter-03) - appetite, fixed time with variable scope
-- [Coding agents love decision records (O'Reilly)](https://oreilly.com/radar/coding-agents-love-decision-records/) - ADRs as agent context
-- [AGENTS.md](https://agents.md) - open standard for AI agent context files
